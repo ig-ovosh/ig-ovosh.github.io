@@ -1,8 +1,8 @@
 <img src="qtvLxLg4JpA.jpg" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
 <p align="left"> 
-  Faça uma breve aprensentação sua com o seu nome e não esqueça a <strong>Sua stack</strong>.<br>
-  Diga o que você está fazendo no momento, se trabalha ou estuda.
+  Page to gitgub находится в активной разработке, с целью налаживания в скором будущем коммерческого запуска. <br>
+The project is in active development with a view to a future commercial launch.
 </p>
 
 <p align="left">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="left">
-  💼 Портфолио: <b>в активной разработке.</b>
+  💼 Портфолио: <strong>...<strong>
 </p>
 
 <p align="left">
