@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>Telegram my contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 <meta property="og:title" content="Иг">
 <meta property="og:image" content="https://cdn4.cdn-telegram.org/file/DSgJusUh-WHEQhvAnLyZ4pFXCDF6tzdULlFo48ttfwIRzKVRGnYvl7ttmUh-SpxEPz2aoy3Vtp9GJ0-Gs4LgMDpw-N1WGH_eeJNJUoveYYU8rxBIgQFLMOT9sI2ikiPaGSIZkNATWGJ50xOhKMA113-gQ4any6Kx4pqtMHYv5yYGgKffQOitIupNSvXHtoHtG08ahfQeGbmZzX8UutjQWK7oOF_hpe81JElyzcJl9BnD8GQ3ndC3w7T1IqZX1QNTHanjlGehYJA7_0ATmu_PA0h-gifW3HTX4DebSkc3e_OSQzwiWCC1B1nP-rWfScOZ-C_REGXKYxxNXsKxEFkY-Q.jpg">
 <meta property="og:site_name" content="Telegram">
@@ -96,6 +95,57 @@
 
     <script src="//telegram.org/js/tgwallpaper.min.js?3"></script>
 
+    <script type="text/javascript">
+
+var protoUrl = "tg:\/\/resolve?domain=ig_ovosh";
+if (false) {
+  var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
+  var iframeEl = document.createElement('iframe');
+  iframeContEl.appendChild(iframeEl);
+  var pageHidden = false;
+  window.addEventListener('pagehide', function () {
+    pageHidden = true;
+  }, false);
+  window.addEventListener('blur', function () {
+    pageHidden = true;
+  }, false);
+  if (iframeEl !== null) {
+    iframeEl.src = protoUrl;
+  }
+  !false && setTimeout(function() {
+    if (!pageHidden) {
+      window.location = protoUrl;
+    }
+  }, 2000);
+}
+else if (protoUrl) {
+  setTimeout(function() {
+    window.location = protoUrl;
+  }, 100);
+}
+
+var tme_bg = document.getElementById('tgme_background');
+if (tme_bg) {
+  TWallpaper.init(tme_bg);
+  TWallpaper.animate(true);
+  window.onfocus = function(){ TWallpaper.update(); };
+}
+document.body.classList.remove('no_transition');
+
+function toggleTheme(dark) {
+  document.documentElement.classList.toggle('theme_dark', dark);
+  window.Telegram && Telegram.setWidgetOptions({dark: dark});
+}
+if (window.matchMedia) {
+  var darkMedia = window.matchMedia('(prefers-color-scheme: dark)');
+  toggleTheme(darkMedia.matches);
+  darkMedia.addListener(function(e) {
+    toggleTheme(e.matches);
+  });
+}
+
+    
+    </script>
   </body>
 </html>
-<!-- page generated in 13.08ms -->
+<!-- page generated in 13.99ms -->
