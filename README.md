@@ -1,16 +1,16 @@
 <img src="qtvLxLg4JpA.jpg" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
 
 <p align="left"> 
-  Page to gitgub находится в активной разработке, с целью налаживания в скором будущем коммерческого запуска. <br>
-The project is in active development with a view to a future commercial launch.
+  Page to github находится в активной разработке, с целью налаживания в скором будущем коммерческого запуска. <br>
+Page to github is in active development with a view to a future commercial launch.
 </p>
 
 <p align="left">
-  🦄 Linguagens: **Coloque as linguagens que você desenvolve.**
+  🍀 **Оплату принимаю только плотным напасом.**
 </p>
 
 <p align="left">
-  💼 Портфолио: <strong>...<strong>
+  💼 Портфолио: <strong>да вот-вот уже сделается наверное может быть<strong>
 </p>
 
 <p align="left">
