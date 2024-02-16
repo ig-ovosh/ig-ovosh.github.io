@@ -10,7 +10,7 @@
 </p>
 
 <p align="left">
-  💼 Ferramentas: **Coloque as suas ferramentas de trabalho.**
+  💼 Портфолио: <b>в активной разработке.</b>
 </p>
 
 <p align="left">
